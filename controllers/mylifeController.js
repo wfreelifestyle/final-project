@@ -11,7 +11,7 @@ exports.getMylife = async (req, res) => {
       res.json(rows);
     });
 
-    res.render('mylife', { title: 'Mylife', data: data.mylife });
+    // res.render('mylife', { title: 'Mylife', data: data.mylife });
   } catch (err) {
     console.log(err);
   }

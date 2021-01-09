@@ -27,7 +27,7 @@ CREATE TABLE `mylife` (
   `category` varchar(45) DEFAULT NULL,
   `local_url` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `mylife` (
 
 LOCK TABLES `mylife` WRITE;
 /*!40000 ALTER TABLE `mylife` DISABLE KEYS */;
-INSERT INTO `mylife` VALUES (1,NULL,'/img/1.png'),(2,NULL,'/img/2.png');
+INSERT INTO `mylife` VALUES (1,NULL,'/img/1.png'),(2,NULL,'/img/2.png'),(3,NULL,'/img/3.png'),(4,NULL,'/img/4.png'),(5,NULL,'/img/5.png'),(6,NULL,'/img/6.png'),(7,NULL,'/img/7.png'),(8,NULL,'/img/8.png');
 /*!40000 ALTER TABLE `mylife` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-09 13:47:38
+-- Dump completed on 2021-01-09 14:46:39
