@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 .container {
   .header {
     margin: 0;
@@ -47,8 +51,8 @@
     font-size: 1.6rem;
   }
   // 每行2張圖片
-  .collection-page {
-    .items {
+  .collections {
+    .collections {
       grid-template-columns: 1fr 1fr;
     }
   }
@@ -61,8 +65,8 @@
     font-size: 1.8rem;
   }
   // 每行3張圖片
-  .collection-page {
-    .items {
+  .container {
+    .collections {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -74,37 +78,9 @@
     font-size: 2rem;
   }
   // 每行4張圖片
-  .collection-page {
-    .items {
+  .container {
+    .collections {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-}
-
-// Desktop
-@media screen and (min-width: 1224px) {
-  // font-size: 22px;
-  body {
-    font-size: 2.2rem;
-  }
-  // 每行5張圖片
-  .collection-page {
-    .items {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-  }
-}
-// Large Desktop
-@media screen and (min-width: 1824px) {
-  // font-size: 24px;
-  body {
-    font-size: 2.4rem;
-  }
-  // 每行6張圖片
-  .collection-page {
-    .items {
-      -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: repeat(6, 1fr);
     }
   }
 }

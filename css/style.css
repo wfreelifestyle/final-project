@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 .container .header {
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@
   body {
     font-size: 1.6rem;
   }
-  .collection-page .items {
+  .collections .collections {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -51,7 +55,7 @@
   body {
     font-size: 1.8rem;
   }
-  .collection-page .items {
+  .container .collections {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -60,26 +64,8 @@
   body {
     font-size: 2rem;
   }
-  .collection-page .items {
+  .container .collections {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 1224px) {
-  body {
-    font-size: 2.2rem;
-  }
-  .collection-page .items {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 1824px) {
-  body {
-    font-size: 2.4rem;
-  }
-  .collection-page .items {
-    grid-template-columns: repeat(6, 1fr);
   }
 }
 /*# sourceMappingURL=style.css.map */
